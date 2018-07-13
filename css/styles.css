@@ -1,4 +1,4 @@
-.jumbotron{
+.jumbotron {
   background-image: url("../img/pattern.jpg");
   background-size: cover;
   text-align: center;
@@ -6,24 +6,29 @@
   margin-bottom: 20px;
 }
 
-.sidebar{
+.sidebar {
   background-color: #b2ebf2;
   float: left;
   height: auto;
   margin-right: 40px;
 }
 
-#myRules{
+#myRules {
   color: blue;
 }
-#content{
+
+#content {
   float: left;
 }
 
-#display{
+#display {
   text-align: center;
 }
 
-.myForm{
+.myForm {
   text-align: center;
+}
+
+.body{
+  background-color: inherit;
 }

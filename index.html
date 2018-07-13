@@ -16,56 +16,43 @@
     <h1>My Ping Pong Game</h1>
   </div>
 
-
-<div class="row">
-
-  <div class="col-md-4">
-    <div class="sidebar">
-      <h2>About PingPong</h2>
-      <h3>Created by:</h3>
-      <h4>Cherucole</h4>
-      <br>
-      <h3>About Me</h3>
-      <ul>
-        <li class="linkstext"><a href="https://github.com/cherucole"><h4>My Github Profile</h4></a>
-        </li>
-        <li class="linkstext"><a href="https://twitter.com/cherucole?lang=en"><h4>My Twitter</h4></a> </li>
-      </ul>
+  <div class="row">
+    <!-- Making page responsive to mobile display -->
+    <div class="col-md-4">
+      <!-- Creating Sidebar -->
+      <div class="sidebar">
+        <h2>About PingPong</h2>
+        <h3>Created by:</h3>
+        <h4>Cherucole</h4>
+        <br>
+        <h3>About Me</h3>
+        <ul>
+          <li class="linkstext"><a href="https://github.com/cherucole"><h4>My Github Profile</h4></a>
+          </li>
+          <li class="linkstext"><a href="https://twitter.com/cherucole?lang=en"><h4>My Twitter</h4></a> </li>
+        </ul>
+      </div>
     </div>
 
+    <div id="content" class="col-md-8">
+      <h2>Let's Play!</h2>
+      <h3>Rules:</h3>
+      <p>Ping Pong will count to your number from 1 with the following exceptions:</p>
+      <ol id="myRules">
+        <li>Numbers divisible by 3 will become "ping"</li>
+        <li>Numbers divisible by 5 become "pong"</li>
+        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+      </ol>
+      <!-- Creating a form for user to enter their number -->
+      <form id="myForm" class="form-inline">
+        <div class="form-group">
+          <label for="userInput"> Enter any number:</label>
+          <input type="text" id="userInput" placeholder="Enter number here">
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </div>
+      </form>
+    </div>
   </div>
-
-  <div id="content" class="col-md-8">
-    <h2>Let's Play!</h2>
-    <h3>Rules:</h3>
-    <p>Ping Pong will count to your number from 1 with the following exceptions:</p>
-    <ol id="myRules">
-      <li>Numbers divisible by 3 will become "ping"</li>
-      <li>Numbers divisible by 5 become "pong"</li>
-      <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-    </ol>
-
-    <form id="myForm" class="form-inline">
-      <div class="form-group">
-
-        <label for="userInput"> Enter any number:</label>
-        <input type="text" id="userInput" placeholder="Enter number here">
-
-        <button type="submit" class="btn btn-danger">Submit</button>
-      </div>
-    </form>
-  </div>
-
-</div>
-
-
-
-
-
-
-  <br>
-  <br>
-  <br>
   <p id="display"></p>
 
 </body>
