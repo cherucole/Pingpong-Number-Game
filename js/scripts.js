@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $("form#myForm").submit(function(event) {
     event.preventDefault()
@@ -8,6 +9,9 @@ $(document).ready(function() {
       if (i % 3 != 0 && i % 5 != 0) result =(i)
       if (i % 3 === 0) result = "ping"
       if (i % 5 === 0) result += "pong"
+
+
+
       $("p#display").append(result + "</br>")
     }
 
