@@ -8,7 +8,7 @@ $(document).ready(function() {
       if (i % 3 != 0 && i % 5 != 0) result =(i)
       if (i % 3 === 0) result = "ping"
       if (i % 5 === 0) result += "pong"
-      $("p#display").append(result + "</br>"|| i+ "</br>")
+      $("p#display").append(result + "</br>")
     }
 
   });
