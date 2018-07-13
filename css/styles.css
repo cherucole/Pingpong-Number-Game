@@ -9,7 +9,7 @@
 .sidebar{
   background-color: #b2ebf2;
   float: left;
-  height: 500px;
+  height: auto;
   margin-right: 40px;
 }
 
