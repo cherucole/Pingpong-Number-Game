@@ -14,9 +14,16 @@
 }
 
 #myRules{
-  margin-left: 270px
+  color: blue;
+}
+#content{
+  float: left;
 }
 
 #display{
+  text-align: center;
+}
+
+.myForm{
   text-align: center;
 }
